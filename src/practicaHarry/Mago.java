@@ -88,4 +88,12 @@ public class Mago {
         }else
             return false;
     }
+
+    public String showComments(){
+        return "El personaje se llama: "+nombre+"\n"+
+                "Es del genero: "+genero+"\n"+
+                "Pertenecio a la casa: "+casa+"\n"+
+                "Tiene un patronus con forma de: "+patronus+"\n"+
+                "Un boggart adquiere la forma de: "+boggart+"\n";
+    }
 }
